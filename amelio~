@@ -1,0 +1,19 @@
+	content=BoxLayout(orientation='vertical')
+	subcontent=BoxLayout(orientation='horizontal')
+	btn1 = Button(text="Yes")
+	#btn1.bind(on_press=callback_Yes)
+	subcontent.add_widget(btn1)
+	btn2 = Button(text="No")
+	#btn2.bind(on_press=callback_No)
+	subcontent.add_widget(btn2)
+	label=Label(text='Voulez-vous supprimer cette photo?')
+	
+	content.add_widget(label)
+	content.add_widget(subcontent)
+	
+	popup = Popup(title='Test popup', content=content,
+		      auto_dismiss=True,id="popup")
+	btn1.bind(on_press=popup.dismiss)
+	btn2.bind(on_press=popup.dismiss)
+	popup.open()
+	#popup.dismiss()

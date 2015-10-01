@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 28 Sep 2015 18:03:22 +0200
+Source: kiview
+Binary: kiview
+Architecture: source all
+Version: 0.1
+Distribution: trusty
+Urgency: medium
+Maintainer: UNKNOWN <UNKNOWN>
+Changed-By: cyril <cyril@cyril-Inspiron-7537>
+Description: 
+ kiview     - UNKNOWN
+Changes: 
+ kiview (0.1) trusty; urgency=medium
+ .
+   * Initial release.
+Checksums-Sha1: 
+ d43c7460cc2088e7755d433681bb9aa82b571e1e 514 kiview_0.1.dsc
+ 97962f88c44e74cdfeb9b7596a8595f9b950596c 32088 kiview_0.1.tar.gz
+ 7ee4e69b17a092ca2a21325a4f35ce73ccb0e6da 27128 kiview_0.1_all.deb
+Checksums-Sha256: 
+ 873c0b3a79c1683852f3b38cf87df3c205980b9fa0aab8c6a3d80692e11b40d6 514 kiview_0.1.dsc
+ 414d3ec78952fc4caf322b721efb7ee676b596a44f52f4e0e02518e8fa33f5e3 32088 kiview_0.1.tar.gz
+ a3396fe0473fdba506e8193088a38272a445355a80651c3c26a479f19d2d506a 27128 kiview_0.1_all.deb
+Files: 
+ 0ea26987150792b89507d10e1c6b57af 514 python extra kiview_0.1.dsc
+ dd65bea0b1e30573810730ce3bbeeb5b 32088 python extra kiview_0.1.tar.gz
+ fb348088d48ee20697b3e53ae79abaf7 27128 python extra kiview_0.1_all.deb

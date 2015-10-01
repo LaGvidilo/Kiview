@@ -162,7 +162,7 @@ class mainApp(App):
 		btn = Button(text="Supprimer...", size_hint_y=None, height=80, group='tg2')
 
 		layoutcom.add_widget(btn)
-		r.add_widget(layoutcom)
+		#r.add_widget(layoutcom)
 		r.add_widget(root)
 		return r
 

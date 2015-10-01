@@ -1,0 +1,8 @@
+<glade-catalog name="kiview_window" domain="glade-3" 
+               depends="gtk+" version="1.0">
+  <glade-widget-classes>
+    <glade-widget-class title="Kiview Window" name="KiviewWindow" 
+                        generic-name="KiviewWindow" parent="GtkWindow"
+                        icon-name="widget-gtk-window"/>
+  </glade-widget-classes>
+</glade-catalog>

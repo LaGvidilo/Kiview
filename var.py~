@@ -1,1 +1,5 @@
 lst=[]
+current=""
+sup=[]
+curs=0
+curwidget=[]

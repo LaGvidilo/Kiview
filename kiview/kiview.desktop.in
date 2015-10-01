@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Kiview
+_Comment=Kiview application
+Categories=GNOME;Utility;
+Exec=kiview
+Icon=kiview
+Terminal=false
+Type=Application

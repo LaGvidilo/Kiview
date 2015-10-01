@@ -1,0 +1,56 @@
+[INFO              ] [Logger      ] Record log in /home/cyril/.kivy/logs/kivy_15-09-28_55.txt
+[WARNING           ] [Modules     ] Module <console> not found
+[WARNING           ] [Modules     ] Module <noconsole> not found
+[INFO              ] [Kivy        ] v1.9.0
+[INFO              ] [Python      ] v2.7.6 (default, Jun 22 2015, 17:58:13) 
+[GCC 4.8.2]
+[INFO              ] [Factory     ] 173 symbols loaded
+[INFO              ] [Image       ] Providers: img_tex, img_dds, img_gif, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO              ] [Text        ] Provider: sdl2
+[INFO              ] [OSC         ] using <multiprocessing> for socket
+[INFO              ] [Window      ] Provider: sdl2(['window_egl_rpi'] ignored)
+[INFO              ] [GL          ] OpenGL version <3.0 Mesa 10.5.9>
+[INFO              ] [GL          ] OpenGL vendor <Intel Open Source Technology Center>
+[INFO              ] [GL          ] OpenGL renderer <Mesa DRI Intel(R) Haswell Mobile >
+[INFO              ] [GL          ] OpenGL parsed version: 3, 0
+[INFO              ] [GL          ] Shading version <1.30>
+[INFO              ] [GL          ] Texture max size <8192>
+[INFO              ] [GL          ] Texture max units <32>
+[INFO              ] [Window      ] auto add sdl2 input provider
+[WARNING           ] [Modules     ] Module <console> not found
+[WARNING           ] [Modules     ] Module <noconsole> not found
+[INFO              ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[INFO              ] [AudioGstplayer] Using Gstreamer 1.2.4.0
+[INFO              ] [Audio       ] Providers: audio_gstplayer, audio_sdl2 (audio_ffpyplayer ignored)
+[INFO              ] [GL          ] NPOT texture support is available
+[INFO              ] [GL          ] Unpack subimage support is available
+[INFO              ] [ProbeSysfs  ] device match: /dev/input/event6
+[INFO              ] [MTD         ] Read event from </dev/input/event6>
+[INFO              ] [ProbeSysfs  ] device match: /dev/input/event7
+[INFO              ] [MTD         ] Read event from </dev/input/event7>
+[INFO              ] [Base        ] Start application main loop
+ Exception in thread Thread-1:
+ Traceback (most recent call last):
+ Exception in thread Thread-2:
+   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+ Traceback (most recent call last):
+     self.run()
+   File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+   File "/usr/lib/python2.7/threading.py", line 763, in run
+     self.run()
+     self.__target(*self.__args, **self.__kwargs)
+   File "/usr/lib/python2.7/threading.py", line 763, in run
+   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 197, in _thread_run
+     self.__target(*self.__args, **self.__kwargs)
+     _device = Device(_fn)
+   File "/usr/lib/python2.7/dist-packages/kivy/input/providers/mtdev.py", line 197, in _thread_run
+   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+     _device = Device(_fn)
+     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+   File "/usr/lib/python2.7/dist-packages/kivy/lib/mtdev.py", line 131, in __init__
+ OSError: [Errno 13] Permission denied: '/dev/input/event6'
+     self._fd = os.open(filename, os.O_NONBLOCK | os.O_RDONLY)
+ 
+ OSError: [Errno 13] Permission denied: '/dev/input/event7'
+ 
+[INFO              ] [Base        ] Leaving application in progress...

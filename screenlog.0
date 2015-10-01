@@ -1,0 +1,8 @@
+
+(nautilus:8401): Gtk-WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nautilus:8401): GLib-CRITICAL **: Source ID 113 was not found when attempting to remove it
+
+(nautilus:8401): GLib-CRITICAL **: Source ID 114 was not found when attempting to remove it
+
+(nautilus:8401): GLib-CRITICAL **: Source ID 115 was not found when attempting to remove it
